@@ -32,17 +32,17 @@ class OffbPosCtl:
 
     locations = numpy.matrix([
 
-        [55, -10, 20.00, orientation1[0], orientation1[1], orientation1[2], orientation1[3]],
-        [55, -10, 20.00, orientation2[0], orientation2[1], orientation2[2], orientation2[3]],
+        [50, -10, 15.00, orientation1[0], orientation1[1], orientation1[2], orientation1[3]],
+        [50, -10, 15.00, orientation2[0], orientation2[1], orientation2[2], orientation2[3]],
 
-        [65, -10, 20.00, orientation2[0], orientation2[1], orientation2[2], orientation2[3]],
-        [65, -10, 20.00, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
+        [60, -10, 15.00, orientation2[0], orientation2[1], orientation2[2], orientation2[3]],
+        [60, -10, 15.00, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
 
-        [65, -20, 20.00, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
-        [65, -20, 20.00, orientation4[0], orientation4[1], orientation4[2], orientation4[3]],
+        [60, -20, 15.00, orientation3[0], orientation3[1], orientation3[2], orientation3[3]],
+        [60, -20, 15.00, orientation4[0], orientation4[1], orientation4[2], orientation4[3]],
 
-        [55, -20, 20.00, orientation4[0], orientation4[1], orientation4[2], orientation4[3]],
-        [55, -20, 20.00, orientation1[0], orientation1[1], orientation1[2], orientation1[3]]
+        [50, -20, 15.00, orientation4[0], orientation4[1], orientation4[2], orientation4[3]],
+        [50, -20, 15.00, orientation1[0], orientation1[1], orientation1[2], orientation1[3]]
     ])
 
     def mavrosTopicStringRoot(self, uavID=0):
